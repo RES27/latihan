@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(../latihan/painted.jpg);
+    background-size: cover;
+}
+.containerlogin {
+    position: absolute;
+    width: 450px;
+    height: 550px;
+    margin-top: 5%;
+    margin-left: 35%;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 1000px;
+}
+
+.containerlogin h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    margin-top: 25%;
+}
+
+
+.login {
+    position: relative;
+    top: 100%;
+    left: 5%;
+}
+
+.login input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.tekan input{
+    margin-top: 5%;
+    margin-left: 7%;
+    padding: 15px 40px ;
+    width: 85%;
+    font-size: 20px;
+    background-color: rgb(109, 109, 219);
+    border-radius: 20px;
+}
+
+.tekan input:hover {
+    cursor: pointer;
+    background-color: azure;
+}
+
+.pradaftar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    padding: 10px;
+}
+.pradaftar a{
+    padding: 5px;
+
+}
+
+.pradaftar a:hover {
+    cursor: pointer;
+}
